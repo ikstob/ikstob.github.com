@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Botski Produkti by ikstob</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">Botski Produkti</h1>
+        <p class="header">Random segments of code for Internet Marketing</p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/ikstob/botski/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/ikstob/botski/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/ikstob/botski">View On GitHub</a></li>
+        </ul>
+
+        <p class="header"><!-- This project is maintained by <a class="header name" href="https://github.com/ikstob">ikstob</a>  --></p>
+
+
+      </header>
+      <section>
+ 
+<h3>About</h3>
+
+<p>“botski” is quite simply a selection of tools to automate some of the more tedious tasks related to Internet Marketing.  These tools include being able to <strong>harvest</strong> thousands of links from the major search engines, <strong>fetch</strong> and <strong>scrape</strong> web pages for particular patterns, <strong>check</strong> for page and domain related attributes (PageRank) and some <strong>data management</strong> tasks.</p>
+
+<p>At the moment these tools are all command-line based and written entirely in Java, they work on <strong>Windows</strong>, <strong>Mac</strong> and <strong>Linux</strong> and are ideal for running remotely on cheap Linux VPS’s.  Some web/desktop user interfaces may be added in the future but all the tools will run happily on an inexpensive 256MB VPS.</p>
+
+<h3>Getting Started</h3>
+
+First things first, you need to download the software - you have two choices:
+<ol>
+<li>Download the ready-to-go compiled code (ZIP or TAR)</li>
+or,
+<li>Build it yourself from source code (advanced users only)</li>
+</ol>
+
+<h4>Download the ready-to-go compiled code</h4>
+
+<p>Choose the version you’d like the download in (ZIP or TAR) and save it on your computer.  Extract the archive into a new “botski” directory, this is where you will run the program from.</p>
+
+<h4>Build it yourself from source code (advanced users only)</h4>
+
+<p>Assuming you have <a href=”http://www.java.com/java6download/”>Java JDK 1.6+</a> and <a href=”http://maven.apache.org/”>Apache Maven</a> installed.</p>
+
+<pre><code>$ git clone git://github.com/ikstob/botski.git
+$ cd botski
+$ mvn package
+</code></pre>
+
+<h3>Basic Usage</h3>
+
+<p>The following is an example of Harvesting links from the major search engines using a list of footprints in the given files. These are in an identical format to other tools like Scrapebox etc.</p>
+
+<pre><code>$ botski Harvest path/to/footprints1.txt path/footprints2.txt 
+</code></pre>
+
+<h3>More Coming Soon!</h3>
+
+<p>You can contact me on botski@ikstob.com</p>
+
+      </section>
+      <footer>
+        <p><small><!-- Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme --></small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36284452-1']);
+  _gaq.push(['_setDomainName', 'ikstob.com']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+  </body>
+</html>
